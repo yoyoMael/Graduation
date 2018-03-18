@@ -16,8 +16,8 @@ from sklearn.naive_bayes import GaussianNB
 from math import log
 
 N = 199
-neg_dir = '/Users/Yoyo/Desktop/Decision_Tree/dataset/Moviedata/review_polarity/txt_sentoken/neg'
-pos_dir = '/Users/Yoyo/Desktop/Decision_Tree/dataset/Moviedata/review_polarity/txt_sentoken/pos'
+neg_dir = '/Users/Yoyo/Desktop/Graduation/ML_test/dataset/Moviedata/review_polarity/txt_sentoken/neg'
+pos_dir = '/Users/Yoyo/Desktop/Graduation/ML_test/dataset/Moviedata/review_polarity/txt_sentoken/pos'
 P_pos = -1
 P_neg = -1
 least_limit = 2
