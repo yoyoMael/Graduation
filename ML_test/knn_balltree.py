@@ -1,4 +1,4 @@
-__authot__ = 'yoyo'
+__author__ = 'yoyo'
 # -*- coding:utf-8 -*-
 
 import sys
