@@ -1,0 +1,23 @@
+2018-06-01 15:34:06,465 - torch_mnist_basic.py[line:117] - INFO: [1,  2000] loss: 1.918
+2018-06-01 15:34:09,153 - torch_mnist_basic.py[line:117] - INFO: [1,  4000] loss: 0.489
+2018-06-01 15:34:11,866 - torch_mnist_basic.py[line:117] - INFO: [1,  6000] loss: 0.252
+2018-06-01 15:34:14,803 - torch_mnist_basic.py[line:117] - INFO: [1,  8000] loss: 0.194
+2018-06-01 15:34:17,722 - torch_mnist_basic.py[line:117] - INFO: [1, 10000] loss: 0.182
+2018-06-01 15:34:20,445 - torch_mnist_basic.py[line:117] - INFO: [1, 12000] loss: 0.153
+2018-06-01 15:34:23,880 - torch_mnist_basic.py[line:117] - INFO: [2,  2000] loss: 0.124
+2018-06-01 15:34:27,009 - torch_mnist_basic.py[line:117] - INFO: [2,  4000] loss: 0.126
+2018-06-01 15:34:30,359 - torch_mnist_basic.py[line:117] - INFO: [2,  6000] loss: 0.125
+2018-06-01 15:34:33,353 - torch_mnist_basic.py[line:117] - INFO: [2,  8000] loss: 0.117
+2018-06-01 15:34:36,094 - torch_mnist_basic.py[line:117] - INFO: [2, 10000] loss: 0.109
+2018-06-01 15:34:38,830 - torch_mnist_basic.py[line:117] - INFO: [2, 12000] loss: 0.105
+2018-06-01 15:34:39,505 - torch_mnist_basic.py[line:120] - INFO: Finished Training
+2018-06-01 15:34:41,647 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     0 : 99 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     1 : 99 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     2 : 97 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     3 : 97 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     4 : 96 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     5 : 95 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     6 : 95 %
+2018-06-01 15:34:41,648 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     7 : 94 %
+2018-06-01 15:34:41,649 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     8 : 96 %
+2018-06-01 15:34:41,649 - torch_mnist_basic.py[line:148] - INFO: Accuracy of     9 : 97 %

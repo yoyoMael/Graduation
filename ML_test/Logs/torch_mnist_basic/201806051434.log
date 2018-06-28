@@ -1,0 +1,24 @@
+2018-06-05 14:35:02,947 - torch_mnist_basic.py[line:120] - INFO: [1,  2000] loss: 1.812
+2018-06-05 14:35:06,445 - torch_mnist_basic.py[line:120] - INFO: [1,  4000] loss: 0.488
+2018-06-05 14:35:09,504 - torch_mnist_basic.py[line:120] - INFO: [1,  6000] loss: 0.328
+2018-06-05 14:35:12,783 - torch_mnist_basic.py[line:120] - INFO: [1,  8000] loss: 0.239
+2018-06-05 14:35:16,157 - torch_mnist_basic.py[line:120] - INFO: [1, 10000] loss: 0.184
+2018-06-05 14:35:19,436 - torch_mnist_basic.py[line:120] - INFO: [1, 12000] loss: 0.163
+2018-06-05 14:35:23,691 - torch_mnist_basic.py[line:120] - INFO: [2,  2000] loss: 0.127
+2018-06-05 14:35:26,957 - torch_mnist_basic.py[line:120] - INFO: [2,  4000] loss: 0.130
+2018-06-05 14:35:30,573 - torch_mnist_basic.py[line:120] - INFO: [2,  6000] loss: 0.109
+2018-06-05 14:35:33,690 - torch_mnist_basic.py[line:120] - INFO: [2,  8000] loss: 0.107
+2018-06-05 14:35:36,531 - torch_mnist_basic.py[line:120] - INFO: [2, 10000] loss: 0.089
+2018-06-05 14:35:39,348 - torch_mnist_basic.py[line:120] - INFO: [2, 12000] loss: 0.104
+2018-06-05 14:35:40,055 - torch_mnist_basic.py[line:123] - INFO: Finished Training
+2018-06-05 14:35:42,466 - torch_mnist_basic.py[line:146] - INFO: Accuracy in total : 97 %
+2018-06-05 14:35:44,762 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     0 : 99 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     1 : 99 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     2 : 98 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     3 : 97 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     4 : 98 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     5 : 97 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     6 : 97 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     7 : 94 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     8 : 92 %
+2018-06-05 14:35:44,763 - torch_mnist_basic.py[line:163] - INFO: Accuracy of     9 : 96 %
