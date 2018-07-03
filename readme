@@ -1,0 +1,8 @@
+This directory is the collection of materials related to the graduation,including:
+ 1. Summary_Report: Summary of references, techniques and some algorithms or theories(also in work_report)
+
+ 2. ML_test: Python code, including those created during theory and technique learning also including those used to do experiments and forming projects.Those datasets are ignored because the amount of the file is huge, and this directory won't change too often.
+
+ 3. Essay: This is the collection of all downloaded articles, whether refered or not. This directory is ignored due to the file size problem, need to prepare a copy.
+
+ 4. work_report: This contains summaries done during the internship at Antiy, including refered articles, report source code and bibtex library. This directory is seperately managed with Graduation, because I don't need to have Graduation in the laptop of Antiy, and these two directories are not updated simultaneously, so I  ignored work_report. I will sychronize this directory if necessary, but not always together with Graduation. 
