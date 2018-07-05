@@ -29,7 +29,7 @@ def createlogger():
   logger.setLevel(logging.INFO)  # Log等级总开关
   # 第二步，创建一个handler，用于写入日志文件
   rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
-  new_dir = './Logs/' + os.path.basename(os.sys.argv[0]).split(".")[0] + '/'
+  new_dir = '/Users/Yoyo/Desktop/Graduation/ML_test/Logs/' + os.path.basename(os.sys.argv[0]).split(".")[0] + '/'
   if not os.path.exists(new_dir):
     os.mkdir(new_dir)
   log_path = new_dir

@@ -1,0 +1,100 @@
+user-agent10%20Day%20Weather%20free3830CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|10 Day Weather Free 3830
+user-agent100Dreams160CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|100 Dreams 1.6
+user-agent100%20Pics101CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|100 Pics 1.0.1
+user-agent100%20Pics102CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|100 Pics 1.0.2
+user-agent100Rooms29CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|100 Rooms 2.9
+user-agent100Rooms30CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|100 Rooms 3.0
+user-agent100Rooms31CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|100 Rooms 3.1
+user-agent100Rooms32CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|100 Rooms 3.2
+user-agent10000Free16CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|10000 Free 1.6
+user-agent10000Free162CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|10000 Free 1.6
+user-agent10000Free161CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|10000 Free 1.61
+user-agent10000Free172CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|10000 Free 1.72
+user-agent10000Free174CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|10000 Free 1.74
+user-agent10000Free175CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|10000 Free 1.75
+user-agent101in1Anthology101CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|101 in 1 Anthology 1.0.1
+user-agent101in1anthology101cfnetwork60914darwin1300  Generic iOS|iOS 6.1|101 in 1 Anthology 1.0.1
+user-agent101in1Anthology103CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|101 in 1 Anthology 1.0.3
+user-agent101in1Anthology106CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|101 in 1 Anthology 1.0.6
+user-agent101-in-1Games105CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|101-in-1 Games 1.0.5
+user-agent101in1Anthology102CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|101-in-1 Games Anthology 1.0.2
+user-agent101in1anthology102cfnetwork60914darwin1300  Generic iOS|iOS 6.1|101-in-1 Games Anthology 1.0.2
+user-agent101-in-1GamesHD2100CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|101-in-1 Games HD 2 1.0.0
+user-agent101-in-1GamesHD2101CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|101-in-1 Games HD 2 1.0.1
+user-agent1059%20KISS-FM%20-%20Detroit331CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|105.9 KISS-FM-Detroit 3.3
+user-agent12ConGiap10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|12 con giap 1.0
+user-agent123%20Draw%20and%20Coloring11CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|123 Draw and Coloring 1.1
+user-agent123%20Numbers10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|123 Numbers 1.0
+user-agent1500%20Jokes22CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|1500 Jokes 2.2
+user-agent1DKissBooth11CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|1D Kiss Booth 1.1
+user-agent2014Wallpapers10CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|2014 Wallpapers 1.0
+user-agent28Days10CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|28 Days 1.0
+user-agent3-in-1%20Matching11CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3-in-1 Matching 1.1
+user-agent300Spartans25CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|300 Spartans 2.5
+user-agent365quotesF11CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|365 Quotes 1.1
+user-agent3dCitySurfersCarRaceGame10CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|3D City Surfers Car Race Free 1.0
+user-agent3D%20Piano12CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|3D Piano 1.2
+user-agent3D%20Piano%20HD11CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3D Piano HD 1.1
+user-agent3dpolicecarracing10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3D Police Car Racing 1.0
+user-agent3DPoliceMultiRacer10CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|3D Police Multiracer 1.0
+user-agent3DRace211CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3D Race 2 1.1
+user-agent3DRace213CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3D Race 2 1.3
+user-agent3dsounds30CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|3D Sounds 3.0
+user-agent3dtouchbowling15CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|3D Touch Bowling 1.5
+user-agent3dtruckracing10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3D Truck Racing 1.0
+user-agent3DWallpapers21CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|3D Wallpapers 2.1
+user-agent3pigs24CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|3Pigs 2.4
+user-agent4%20Bilder%201%20Wort25CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Bilder 1 Wort 2.5
+user-agent4%20Bilder%201%20Wort351CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Bilder 1 Wort 3.5.1
+user-agent4%20Bilder%201%20Wort38CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Bilder 1 Wort 3.8
+user-agent4%20Bilder%201%20Wort42CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.2
+user-agent4%20Bilder%201%20Wort43CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.3
+user-agent4%20Bilder%201%20Wort44CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.4
+user-agent4%20Bilder%201%20Wort452CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.5.2
+user-agent4%20Bilder%201%20Wort462CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.6.2
+user-agent4%20Bilder%201%20Wort463CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.6.3
+user-agent4%20Bilder%201%20Wort472CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Bilder 1 Wort 4.7.2
+user-agent4%20More%20Pics14CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 More Pics 1.4
+user-agent4%20pics%201%20word101CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 1.0
+user-agent4Pics1Word11CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 1.1
+user-agent4pics1word-es271CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 2.7.1
+user-agent4pics1word-es29CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Pics 1 Word 2.9
+user-agent4%20Pics%201%20Word30CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Pics 1 Word 3.0
+user-agent4%20Pics%201%20Word318CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 3.18
+user-agent4pics1word-es320CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 3.2.0
+user-agent4pics1word-es335CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 3.3.5
+user-agent4%20Pics%201%20Word46CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Pics 1 Word 4.6
+user-agent4%20Pics%201%20Word472CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 4.7
+user-agent4%20Pics%201%20Word491CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word 4.9.1
+user-agent4pics1word-es30CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Pics 1 word ES 3.0
+user-agent4pics1word-es312CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 word ES 3.1.2
+user-agent4pics1word-it26CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Pics 1 Word-it 2.6
+user-agent4pics1word-it27CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Pics 1 Word-it 2.7
+user-agent4pics1word-it282CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Word-it 2.8
+user-agent4%20Pics%201%20Wrong10CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4 Pics 1 Wrong 1.0
+user-agent4%20Wheel%20Monster12CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|4 Wheel Monster 1.2
+user-agent421Free11CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|421 Free 1.1
+user-agent425%20Levels11CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|425 Levels 1.1
+user-agent425%20Levels12CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|425 Levels 1.2
+user-agent4H1T11CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4H1T 1.1
+user-agent4H1T17CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4H1T 1.7
+user-agent4H1T20CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4H1T 2.0
+user-agent4x4OffroadFree15CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4x4 Off-Road Free 1.5
+user-agent4x4OffroadSupercharged14CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|4x4 Off Road Supercharged 1.4
+user-agent590%20WEZE%20AM331CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|590 Weze AM 3.3.1
+user-agent6%20Pack%20exer10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|6 Pack Exercise 1.0
+user-agent69%20News172123CFNetwork60913Darwin1300 Generic iOS|iOS 6.1|69 News 1.7
+user-agent69%20News182413CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|69 News 1.8.2413
+user-agent69PositionsLite31CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|69 Positions Lite 3.1
+user-agent6x%20Poker11CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|6x Poker 1.1
+user-agent7-dwarfs24CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|7 Dwarfs 2.4
+user-agent77%20WABC340CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|77 WABC 3.4.0
+user-agent777blazingSlotFree10CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|777 Blazing Slot Free 1.0
+user-agent777casinoFree10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|777 Casino Free 1.0
+user-agent777Plus10CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|777 Plus 1.0
+user-agenteightbitjump10241CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|8-Bit Jump 1.02
+user-agenteightbitjump1051CFNetwork60914Darwin1300  Generic iOS|iOS 6.1|8-Bit Jump 1.05.1
+user-agent937%20Kiss%20Country340CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|93.7 Kiss Country 3.4.0
+user-agent939%20WKYS331CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|93.9 WKYS 3.3.1
+user-agent94%20FM%20The%20Fish331CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|94 FM The Fish 3.3.1
+user-agent94s32CFNetwork60914Darwin1300 Generic iOS|iOS 6.1|94 Seconds 3.2

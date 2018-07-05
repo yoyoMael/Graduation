@@ -22,7 +22,7 @@ def extract_by_label(label, label_num, contents):
     if len(line) > 1:
       labels = line[1].split("|")
       if len(labels) > label_num:
-        if label in labels[label_num - 1]:
+        if label in labels[label_num - 1].strip("\n"):
           data.append(content)
   return data
 # specify the label and the number of label(3 types of label in the data)
@@ -39,8 +39,8 @@ def write_file(filename, data, symbol=""):
 if __name__ == "__main__":
 
   data_dir = "/Users/Yoyo/Desktop/Graduation/ML_test/dataset/device-detection-database"
-  filename = "generic_ios.txt"
-  label = "iOS 6.1"
+  filename = "traindata.txt"
+  label = "iOS 8.0"
   label_num = 2
   headers = get_lines(data_dir, filename)
   data = extract_by_label(label, 2, headers)

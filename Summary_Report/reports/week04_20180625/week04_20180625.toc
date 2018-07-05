@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}课题背景介绍}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}当前网络环境分析}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}流量分类的主要工作内容}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}网络流量分析技术}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}基于端口的流量识别}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}基于深度包检测的流量识别}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}基于深度流检测的流量识别}{3}{subsection.2.3}
+\contentsline {section}{\numberline {3}网络流量特征提取}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}DPI分析特征提取}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}DFI分析特征提取}{4}{subsection.3.2}
+\contentsline {section}{\numberline {4}总结}{5}{section.4}

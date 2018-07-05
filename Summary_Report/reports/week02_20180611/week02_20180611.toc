@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}安全状态画像功能简介}{1}
+\contentsline {section}{\numberline {2}网络安全画像简介}{1}
+\contentsline {section}{\numberline {3}国内外研究现状}{1}
+\contentsline {subsection}{\numberline {3.1}决策树的构建过程}{1}
+\contentsline {subsubsection}{\numberline {3.1.1}信息增益}{1}
+\contentsline {subsubsection}{\numberline {3.1.2}决策树修剪}{2}
+\contentsline {subsubsection}{\numberline {3.1.3}一些特殊属性的处理}{3}
+\contentsline {section}{\numberline {4}贝叶斯方法}{3}
+\contentsline {subsection}{\numberline {4.1}贝叶斯法则}{4}
+\contentsline {subsection}{\numberline {4.2}贝叶斯理论的应用}{4}

@@ -1,0 +1,43 @@
+% Encoding: UTF-8
+
+@PhdThesis{井维亮2008基于攻击图的网络安全评估技术研究,
+  author = {井维亮},
+  title  = {基于攻击图的网络安全评估技术研究},
+  school = {哈尔滨工程大学},
+  year   = {2008},
+}
+
+@PhdThesis{吴小雄2016基于关联规则的安全威胁感知方法研究,
+  author = {吴小雄},
+  title  = {基于关联规则的安全威胁感知方法研究},
+  school = {南京理工大学},
+  year   = {2016},
+}
+
+@Article{史海滨2017基于机器学习的具备威胁感知和反馈环的自反击蜜罐,
+  author  = {史海滨},
+  title   = {基于机器学习的具备威胁感知和反馈环的自反击蜜罐},
+  journal = {网络安全技术与应用},
+  year    = {2017},
+  number  = {8},
+  pages   = {29-30},
+}
+
+@Article{龚俭2017网络安全态势感知综述,
+  author  = {龚俭 and 臧小东 and 苏琪 and 胡晓艳 and 徐杰},
+  title   = {网络安全态势感知综述},
+  journal = {软件学报},
+  year    = {2017},
+  number  = {4},
+  pages   = {1010-1026},
+  month   = {5},
+}
+
+@PhdThesis{韦勇2009网络安全态势评估模型研究,
+  author = {韦勇},
+  title  = {网络安全态势评估模型研究},
+  school = {中国科学技术大学},
+  year   = {2009},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
