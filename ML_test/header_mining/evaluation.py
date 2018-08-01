@@ -56,6 +56,8 @@ def evaluation(dataset, sequence_str, seq_len, label, label_num):
   TPR = float(TP)/(TP+FN)
   FPR = float(FP)/(FP+TN)
   TNR = 1-FPR
+  from sklearn.svm import SVC
+
 
 
 
@@ -64,14 +66,14 @@ def evaluation(dataset, sequence_str, seq_len, label, label_num):
 
 if __name__ =='__main__':
   data_dir = "/Users/Yoyo/Desktop/Graduation/ML_test/dataset/device-detection-database/"
-  label = "Android 6.0"
+  label = "iOS 6.1"
   mining_file = label + ".txt"
   evaluation_file = "traindata.txt"
 
   data = get_lines(data_dir, mining_file)
 
   print("Extracting ", label, "features. \n")
-  sequence_str = get_final_sequence(data, 5, 10000)
+  sequence_str = get_final_sequence(data, 5, 100)
   print("Etracted > %s \n" % sequence_str)
   seq_len = len(sequence_str)
   # iter_seq = (x for x in sequence_str)

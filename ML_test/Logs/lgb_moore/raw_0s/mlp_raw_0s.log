@@ -1,0 +1,52 @@
+Classifier name: mlp
+Training time consumption: 25.191043 , Predicting time consumption: 0.456044 
+
+Metrics:
+Class: WWW, recall 0.995129, precision 0.991467, fpr 0.056843, f1 0.993295
+Metrics:
+Class: MAIL, recall 0.701064, precision 0.991976, fpr 0.000464, f1 0.821527
+Metrics:
+Class: FTP-CONTROL, recall 0.810740, precision 0.271253, fpr 0.017764, f1 0.406501
+Metrics:
+Class: FTP-PASV, recall 0.956101, precision 0.503527, fpr 0.006760, f1 0.659651
+Metrics:
+Class: ATTACK, recall 0.684504, precision 0.988728, fpr 0.000037, f1 0.808959
+Metrics:
+Class: P2P, recall 0.435530, precision 0.456000, fpr 0.002898, f1 0.445530
+Metrics:
+Class: DATABASE, recall 0.753021, precision 0.908842, fpr 0.000534, f1 0.823627
+Metrics:
+Class: FTP-DATA, recall 0.835749, precision 0.936582, fpr 0.000882, f1 0.883297
+Metrics:
+Class: MULTIMEDIA, recall 0.444444, precision 0.715084, fpr 0.000271, f1 0.548180
+Metrics:
+Class: SERVICES, recall 0.933270, precision 0.691384, fpr 0.002328, f1 0.794320
+Metrics:
+Class: INTERACTIVE, recall 0.000000, precision 0.000000, fpr 0.000005, f1 nan
+Accuracy: 0.960887
+
+ *****************
+
+After 1 Year:
+Class: WWW, recall 0.994166, precision 0.978543, fpr 0.084388, f1 0.986293
+After 1 Year:
+Class: MAIL, recall 0.614786, precision 0.964255, fpr 0.002300, f1 0.750849
+After 1 Year:
+Class: FTP-CONTROL, recall 0.975779, precision 0.358323, fpr 0.026116, f1 0.524164
+After 1 Year:
+Class: FTP-PASV, recall 0.995683, precision 0.667954, fpr 0.018171, f1 0.799538
+After 1 Year:
+Class: ATTACK, recall nan, precision 0.000000, fpr 0.000102, f1 nan
+After 1 Year:
+Class: P2P, recall 0.225589, precision 0.243636, fpr 0.010761, f1 0.234266
+After 1 Year:
+Class: DATABASE, recall 0.077966, precision 0.328571, fpr 0.002431, f1 0.126027
+After 1 Year:
+Class: FTP-DATA, recall 0.572779, precision 0.974277, fpr 0.000419, f1 0.721429
+After 1 Year:
+Class: MULTIMEDIA, recall nan, precision 0.000000, fpr 0.002853, f1 nan
+After 1 Year:
+Class: SERVICES, recall 0.669421, precision 0.843750, fpr 0.000769, f1 0.746544
+After 1 Year:
+Class: INTERACTIVE, recall 0.000000, precision nan, fpr 0.000000, f1 nan
+Accuracy: 0.920208

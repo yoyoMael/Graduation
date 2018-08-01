@@ -87,10 +87,10 @@ def seq_list_evaluation(dataset, seq_list, label, label_num):
 
 if __name__ =='__main__':
   data_dir = "/Users/Yoyo/Desktop/Graduation/ML_test/dataset/device-detection-database/"
-  label = "Android 6.0"
+  label = "iOS 6.1"
   label_num = 2
   mining_file = label + ".txt"
-  evaluation_file = "Android 6.0.txt"
+  evaluation_file = "Generic iOS.txt"
   data = get_lines(data_dir, mining_file)
   data1 = []
   for line in data:

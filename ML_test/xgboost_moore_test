@@ -1,0 +1,149 @@
+#! python3
+# -*- coding:utf-8 -*-
+# Useful discriminator top 11:
+# 1.port
+# 60. pushed_data_pkts_b a  (server > client)
+# 95. initial_window_bytes_a b (client > server)
+# 96. initial_window_bytes_b a (server > client)
+# 85 avg_segm_size_b a (server > client)
+# 162. med_data_ip_a b (client > server)
+# 45. actual_data_pkts_a b (client > server)
+# 180. var_data_wire_b a (server > client)
+# 83. min_segm_size_a b
+# 113. RTT_samples_a b
+# 59. pushed_data_pkts_a b
+# Columns (68,69,72,73,98,99,100,101,109,110,111,208,224,225,226,227,234,235,236,237,242,243,244,245,246,247) have mixed types.
+import numpy as np
+import pandas as pd
+import itertools
+import os
+import time
+import xgboost as xgb
+from sklearn.metrics import confusion_matrix
+from sklearn.naive_bayes import GaussianNB as gnb
+from moore_preprocessing import to_str
+
+
+data_dir = '/Users/Yoyo/Desktop/Graduation/ML_test/dataset/Moore'
+# full_index = np.array(['0', '59', '94', '95', '84', '161', '44', '179', '82', '112', '58'])
+# full_index = np.array([0,59,94,95,84,161,44,179,82,112,58]) #best 1feature
+# full_index = np.array([95,94,82,59]) # simply eliminate 0, obtained by XGBoost
+# full_index = np.array([0,82]) # obtained by GaussianNB
+full_index = np.array([44, 179, 112, 59, 82, 58, 84]) #obtained by XGBoost after eliminating 0
+  # num_index = np.array([0, 59, 94, 95, 84, 161, 44, 179, 82, 112, 58])
+  # currently, using the first four is the most accurate
+prefix = 'entry'
+classes = ['WWW','MAIL','FTP-CONTROL','FTP-PASV','ATTACK','P2P','DATABASE','FTP-DATA','MULTIMEDIA','SERVICES','INTERACTIVE','GAMES']
+# used to tell gnb.partial_fit  all the possible classes in labels
+
+
+def generate_train_df(names):
+    df_list = []
+    for suffix in range(10):
+      filename = prefix + to_str(suffix)
+      file_dir = os.path.join(data_dir, filename)
+      if os.path.exists(file_dir):
+        print(file_dir)
+        df = pd.read_csv(file_dir, names = names)
+        df_list.append(df)
+    data = pd.concat(df_list)
+    return data
+
+def label_to_num(label_seq, classes):
+    label_seq = [classes.index(x) for x in label_seq]
+    label_seq = np.array(label_seq)
+    return label_seq
+# xgboost requires number label, NN requires one-hot coded label
+
+def get_confusion(classes, labels, preds):
+    tp = []
+    fp = []
+    tn = []
+    fn = []
+
+    for i in range(len(classes)):
+        in_preds = preds == i
+        compare = labels[in_preds]
+        tpi = compare == i
+        tpi = len(tpi.nonzero()[0])
+        fpi = compare != i
+        fpi = len(fpi.nonzero()[0])
+        in_preds = preds != i
+        compare = labels[in_preds]
+        tni = compare != i
+        fni = compare == i
+        tni = len(tni.nonzero()[0])
+        fni = len(fni.nonzero()[0])
+        tp.append(tpi)
+        fp.append(fpi)
+        tn.append(tni)
+        fn.append(fni)
+
+    confusions = {'tp': tp, 'fp': fp, 'tn': tn, 'fn': fn}
+    return confusions
+
+# def print_confusion(confusions, class_index):
+#     other = 'other'
+#     label = classes[class_index]
+#     tpi = confusions['tp'][class_index]
+#     fpi = confusions['fp'][class_index]
+#     tni = confusions['tn'][class_index]
+#     fni = confusions['fn'][class_index]
+#
+#     precision = tpi/(tpi + fpi)
+#     recall = tpi/(tpi + fni)
+#     f1 = precision*recall*2/(precision + recall)
+#
+#     print('Confusion Matrix >> \n')
+#     print('%3s%7s%7s\n' %(' ',label,other))
+#     print('%3s%7d%7d\n' % ('a',tpi,fni))
+#     print('%3s%7d%7d\n' % ('b',fpi,tni))
+
+def print_confusion(confusion_mat, classes):
+    seq = range(len(classes))
+    print('%8s' % ' ', end = '')
+    for i in seq:
+        print('%8s' % classes[i][:6], end = '')
+    print('\n')
+    for i in seq:
+        print('%8s'%(classes[i][:6]), end = '')
+        for j in seq:
+            print('%8d' % confusion_mat[i][j], end = '')
+        print('\n')
+
+if __name__ == '__main__':
+    names = [x for x in range(249)]
+    train_df = generate_train_df(names)
+    test_dir = os.path.join(data_dir, 'entry10')
+    test_df = pd.read_csv(test_dir, names = names)
+    # test_data = test_df[['0','82']].values
+    train_labels = train_df[248].values
+    train_labels = label_to_num(train_labels, classes)
+    test_labels = test_df[248].values
+    test_labels = label_to_num(test_labels, classes)
+    # params = {'learning_rate': .05, 'max_depth': 6, 'n_estimators': 500}
+    params = {}
+    train_data = train_df[full_index].values
+    test_data = test_df[full_index].values
+
+    train_data = xgb.DMatrix(train_data, label = train_labels)
+    test_data = xgb.DMatrix(test_data)
+
+    clf = xgb.train(params, train_data, 50)
+    preds = clf.predict(test_data)
+    for i in range(len(preds)):
+        preds[i] = round(preds[i])
+    accuracy = np.mean(preds == test_labels)
+    print('*' * 30)
+    print('Features >> \n')
+    print(full_index)
+    print('Parameters >> \n')
+    print(params)
+    print("Accuracy >> \n")
+    print(accuracy)
+    confusion_mat = confusion_matrix(test_labels, preds, labels = [x for x in range(len(classes))])
+    print(confusion_mat)
+
+    print_confusion(confusion_mat, classes)
+    np.save
+

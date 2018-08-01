@@ -83,7 +83,7 @@ def get_frequent(seq_list, data):
         continue
   for i in range(len(correspond)):
     seq = seq_list[i]
-    if float(correspond[i])/total <= .825:
+    if float(correspond[i])/total <= .95:
       print("Discarded seq", seq)
     else:
       trimed_list.append(seq)
@@ -100,7 +100,7 @@ def sequence_mining(data, sequence, start, end):
 def match(string, iter_seq, seq_len, discontinue = 0):
   discontinues = discontinue
   index = 0
-  limit = 0.3 * seq_len
+  limit = 0.5 * seq_len
   string = string.lower()
   # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   # !!!the discontinue parameter!!!

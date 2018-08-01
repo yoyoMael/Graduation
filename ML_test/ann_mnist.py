@@ -4,12 +4,10 @@
 import struct
 import matplotlib.pyplot as plt
 import numpy as np
-
 from sklearn.datasets import fetch_mldata
 from sklearn.neural_network import MLPClassifier
-
-
 dirct = '/Users/Yoyo/Desktop/Graduation/ML_test/dataset/MNIST'
+from num
 
 def read_image(filename):
   f = open(filename, 'rb')
@@ -68,4 +66,3 @@ if __name__ == '__main__':
 
   print "Training set score: %f " % mlp.score(x_train, y_train)
   print "Test set score: %f" % mlp.score(x_test, y_test)
-

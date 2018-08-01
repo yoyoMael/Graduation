@@ -9,7 +9,7 @@ import os.path as path
 
 def get_lines(data_dir, filename):
   filepath = path.join(data_dir, filename)
-  f = open(filepath)
+  f = open(filepath, encoding='utf-8')
   contents = f.readlines()
   f.close()
   return contents

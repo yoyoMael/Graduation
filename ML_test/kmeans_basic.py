@@ -5,6 +5,7 @@ __author__ = 'yoyo'
 import numpy as np
 from matplotlib import pyplot as plt
 import math
+from multiprocessing import Process, Queue, Pool, Manager
 
 def distance2(a, b):
   return math.pow((a[0]-b[0]),2) + math.pow((a[1] - b[1]),2)
@@ -39,9 +40,7 @@ d = 1.0
 np.random.seed(0)
 x = np.r_[d * np.random.randn(N,2) - [1.5,1.5], d * np.random.randn(N,2) + [1.5,1.5]]
 x = np.r_[x, d * np.random.randn(N,2) + [1.5, -1.5]]
-x = np.r_[x, [10, 20], [50]]
-print x
-y = [0] * N + [1] * N + [2] * N + [2] * 4
+y = [0] * N + [1] * N + [2] * N
 # generate the different distribution of data, and corresponding labels
 y = np.array(y)
 z = y
@@ -68,8 +67,12 @@ def new_mean(x, centers, labels):
 
   return means, np.array(z)
 
+
+
 plt.figure(2)
 labels = get_labels(means)
+
+
 for i in range(0,10):
   means, z= new_mean(x, means, labels)
   plt.scatter(x[:, 0], x[:, 1], c = z, cmap = plt.cm.Paired)
