@@ -1,52 +1,52 @@
 Classifier name: lgb
-Training time consumption: 23.570850 , Predicting time consumption: 6.805649 
+Training time consumption: 19.147981 , Predicting time consumption: 2.393434 
 
 Metrics:
-Class: WWW, recall 0.998537, precision 0.996490, fpr 0.023344, f1 0.997512
+Class: WWW, recall 0.998486, precision 0.996573, fpr 0.022792, f1 0.997528
 Metrics:
-Class: MAIL, recall 0.995169, precision 0.996355, fpr 0.000298, f1 0.995762
+Class: MAIL, recall 0.994749, precision 0.996726, fpr 0.000267, f1 0.995737
 Metrics:
-Class: FTP-CONTROL, recall 0.986248, precision 0.996691, fpr 0.000027, f1 0.991442
+Class: FTP-CONTROL, recall 0.985808, precision 0.993399, fpr 0.000053, f1 0.989589
 Metrics:
-Class: FTP-PASV, recall 0.918155, precision 0.862334, fpr 0.001051, f1 0.889369
+Class: FTP-PASV, recall 0.938042, precision 0.851519, fpr 0.001174, f1 0.892689
 Metrics:
-Class: ATTACK, recall 0.690078, precision 0.976341, fpr 0.000080, f1 0.808622
+Class: ATTACK, recall 0.702602, precision 0.979275, fpr 0.000071, f1 0.818182
 Metrics:
-Class: P2P, recall 0.754537, precision 0.883669, fpr 0.000554, f1 0.814013
+Class: P2P, recall 0.743631, precision 0.877820, fpr 0.000577, f1 0.805172
 Metrics:
-Class: DATABASE, recall 0.997734, precision 0.998488, fpr 0.000011, f1 0.998111
+Class: DATABASE, recall 0.996222, precision 1.000000, fpr 0.000000, f1 0.998107
 Metrics:
-Class: FTP-DATA, recall 0.971705, precision 0.982897, fpr 0.000264, f1 0.977269
+Class: FTP-DATA, recall 0.971823, precision 0.983702, fpr 0.000251, f1 0.977726
 Metrics:
-Class: MULTIMEDIA, recall 0.788194, precision 0.922764, fpr 0.000101, f1 0.850187
+Class: MULTIMEDIA, recall 0.757225, precision 0.949275, fpr 0.000062, f1 0.842444
 Metrics:
-Class: SERVICES, recall 0.990467, precision 0.905052, fpr 0.000581, f1 0.945835
+Class: SERVICES, recall 0.992063, precision 0.903179, fpr 0.000595, f1 0.945537
 Metrics:
-Class: INTERACTIVE, recall 0.945455, precision 0.881356, fpr 0.000037, f1 0.912281
-Accuracy: 0.993982
+Class: INTERACTIVE, recall 0.909091, precision 0.937500, fpr 0.000018, f1 0.923077
+Accuracy: 0.993987
 
  *****************
 
 After 1 Year:
-Class: WWW, recall 0.997820, precision 0.971473, fpr 0.113428, f1 0.984470
+Class: WWW, recall 0.997756, precision 0.967485, fpr 0.129809, f1 0.982387
 After 1 Year:
-Class: MAIL, recall 0.886048, precision 0.898028, fpr 0.010153, f1 0.891998
+Class: MAIL, recall 0.886604, precision 0.895564, fpr 0.010434, f1 0.891061
 After 1 Year:
-Class: FTP-CONTROL, recall 0.968858, precision 0.989399, fpr 0.000155, f1 0.979021
+Class: FTP-CONTROL, recall 0.965398, precision 0.985866, fpr 0.000207, f1 0.975524
 After 1 Year:
-Class: FTP-PASV, recall 0.972662, precision 0.986861, fpr 0.000475, f1 0.979710
+Class: FTP-PASV, recall 0.660432, precision 0.978678, fpr 0.000528, f1 0.788660
 After 1 Year:
-Class: ATTACK, recall nan, precision 0.000000, fpr 0.000102, f1 nan
+Class: ATTACK, recall nan, precision 0.000000, fpr 0.000153, f1 nan
 After 1 Year:
-Class: P2P, recall 0.521886, precision 0.794872, fpr 0.002069, f1 0.630081
+Class: P2P, recall 0.525253, precision 0.843243, fpr 0.001500, f1 0.647303
 After 1 Year:
-Class: DATABASE, recall 0.027119, precision 1.000000, fpr 0.000000, f1 0.052805
+Class: DATABASE, recall 0.484746, precision 1.000000, fpr 0.000000, f1 0.652968
 After 1 Year:
-Class: FTP-DATA, recall 0.973535, precision 0.962617, fpr 0.001047, f1 0.968045
+Class: FTP-DATA, recall 0.979206, precision 0.941818, fpr 0.001676, f1 0.960148
 After 1 Year:
 Class: MULTIMEDIA, recall nan, precision 0.000000, fpr 0.000051, f1 nan
 After 1 Year:
-Class: SERVICES, recall 0.991736, precision 1.000000, fpr 0.000000, f1 0.995851
+Class: SERVICES, recall 1.000000, precision 0.983740, fpr 0.000103, f1 0.991803
 After 1 Year:
-Class: INTERACTIVE, recall 0.500000, precision 1.000000, fpr 0.000000, f1 0.666667
-Accuracy: 0.963671
+Class: INTERACTIVE, recall 0.750000, precision 1.000000, fpr 0.000000, f1 0.857143
+Accuracy: 0.959747

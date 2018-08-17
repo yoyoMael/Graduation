@@ -33,7 +33,7 @@ def createlogger(clfname):
   logger.setLevel(logging.INFO)  # Log等级总开关
   # 第二步，创建一个handler，用于写入日志文件
   # rq = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
-  rq = clfname+'_'+'rus_f'
+  rq = clfname+'_'+'rosrus_f'
   new_dir = '/Users/Yoyo/Desktop/Graduation/ML_test/Logs/' + os.path.basename(os.sys.argv[0]).split(".")[0] + '/'
   if not os.path.exists(new_dir):
     os.mkdir(new_dir)
@@ -110,7 +110,7 @@ def get_data(file):
 warnings.filterwarnings(module='sklearn*', action='ignore', category=DeprecationWarning)
 
 data_dir = '/Users/Yoyo/Desktop/Graduation/ML_test/dataset/Moore'
-filename = 'rus_csv'
+filename = 'rosrus_csv'
 file_dict = {'smoteenn_csv':'smoteenn', 'resample_csv':'ros', 'fusion_csv':'raw','smotetomek_csv':'smotetomek'}
 af_filename = 'entry12'
 test_filename = 'fusion_csv'
@@ -162,10 +162,7 @@ if __name__ == '__main__':
                 'dt':dt,
                 'rf':rf}
 
-    for key in clf_dict:
-        get_result(clf_dict[key], key)
-# import matplotlib.pyplot as plt
-# plt.figure()
-# ax = plt.subplot(1,1,1)
-#
-# ax.bar
+    # for key in clf_dict:
+    #     get_result(clf_dict[key], key)
+
+    get_result(clf_dict['lgb'], 'lgb')

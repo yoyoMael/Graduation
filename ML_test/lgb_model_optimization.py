@@ -139,5 +139,5 @@ if __name__ == '__main__':
     acc = np.array(acc)
     print(acc)
     np.savetxt(np_dir, acc)
-import matplotlib.pyplot as plt
-plt.legend
+import matplotlib.lines as lines
+lines.lineStyles
