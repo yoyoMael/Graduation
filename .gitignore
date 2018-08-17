@@ -4,3 +4,5 @@
 */essay/
 /work_report/
 */work_report/
+*.pyc
+*.model
