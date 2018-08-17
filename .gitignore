@@ -6,3 +6,5 @@
 */work_report/
 *.pyc
 *.model
+/ML_test/svm_number_clf.model
+
